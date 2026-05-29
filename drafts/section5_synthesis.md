@@ -24,6 +24,16 @@ has the most immediate verification feedback: it either runs or it doesn't. By
 engineers. By 2024, AI was solving real software bugs from public repositories
 in competitive benchmarks — not toy problems.
 
+Then ML research itself. In March of this year, Chris Lu, Cong Lu, and colleagues
+published in *Nature* a system called The AI Scientist — an end-to-end automation
+of the complete research lifecycle in machine learning: idea generation, code,
+experiments, data analysis, manuscript writing, and peer review. One
+AI-generated paper cleared peer review at a workshop. The domain is ML, not
+physics — and ML is structurally more automation-friendly than theoretical physics,
+with code as a direct verification oracle. But the publication venue is *Nature*,
+and the milestone is real: automated research producing a paper that a human
+reviewer accepted.
+
 Mathematics is next on the curve. Close enough to physics in formalism and rigor
 to function as a leading indicator. Currently ahead of physics. The Castelvecchi
 *Nature* feature from May of this year documents where it is.

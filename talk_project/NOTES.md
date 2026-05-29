@@ -66,6 +66,64 @@ https://arxiv.org/abs/2502.00873. Submitted 2 Feb 2025. Kantamneni; Tegmark, M.
 
 [2026-05-26] POSSIBLY INTERESTING Cook, M. "It Takes Two Neurons To Ride a Bicycle" https://fermatslibrary.com/s/it-takes-two-neurons-to-ride-a-bicycle#email-newsletter
 
+[2026-05-29] REFERENCE PRIORITY LIST — for speaker pre-talk review.
+Ranked by load-bearing importance to the thesis and talk.
+
+TIER 1 — Know these cold. The talk is built on them.
+  1. Hsu, PLB 2026 — "Relativistic covariance and nonlinear quantum mechanics:
+     Tomonaga-Schwinger analysis." The anchor case. §2 entirely built on it.
+     [text](../sources/to_review/hsu_2025_physical_review_letters_b.pdf)
+  2. Hsu companion, 2025 — "Theoretical Physics with Generative AI." Contains
+     verbatim GPT-5 exchange, Generate-Verify protocol, Reeh-Schlieder episode.
+     [text](../sources/to_review/hsu_2025_b_cs_ai_physics.pdf)
+  3. Pan et al., Comm. Physics 2025 — Main quantitative evidence: 87.5/100,
+     above-95 rigor, 13/15 papers. Clearest numbers in the talk.
+     [text](../sources/to_review/pan_et_al_2025.pdf)
+  4. Castelvecchi, Nature 2026 — Mathematics leading indicator. Erdős #1196,
+     proof indigestion, proof-length trajectory, Fields Medal prediction.
+     [text](../sources/to_review/castelvecchi_2026.html)
+
+TIER 2 — Read these. Thesis noticeably weaker without them.
+  5. Lu et al., arXiv preprint 2026 — Workflow taxonomy, characteristic failure
+     pattern at pivot step, deriver-critic loop, de-skilling question.
+     [text](../sources/to_review/lu_et_al_2025.pdf)
+  6. Binz et al., PNAS 2025 — Tao 2023 prediction; Botvinick & Gershman
+     epistemic/normative argument (sharpest steelman).
+     [text](../sources/to_review/binz_et_al_2024.pdf)
+  7. Ghareeb et al. / Robin, Nature 2026 — 44.5% hallucination rate;
+     ripasudil/dAMD finding; Deep Research controlled comparison.
+     [text](../sources/to_review/ghareeb_et_al_2025.pdf)
+  8. Gottweis et al. / Co-Scientist, Nature 2026 — Two days vs. decade;
+     homogenization risk.
+     [text](../sources/to_review/gottweiss_et_al_2025.pdf)
+
+TIER 3 — Skim. Each adds something; none individually essential.
+  9. Wang et al., Frontiers in Education 2024 — 62.5% / 8.3% cliff;
+     physical world modeling failure.
+     [text](../sources/to_review/wang_et_al_2024.pdf)
+ 10. Nature editorial, May 2026 — One page. "Feature not a bug"; Perutz false
+     dialectic; "efficiency ≠ insight."
+     [text](../sources/to_review/nature_editor_05-19-2026.pdf)
+ 11. Lewkowycz et al. / Minerva, NeurIPS 2022 — 2022 baseline; 30% false
+     positive rate at hardest difficulty; majority voting.
+     [text](../sources/to_review/lewkowyz_et_al_2022.pdf)
+ 12. Shojaee et al. / Apple 2025, "Illusion of Thinking" — Three performance
+     regimes; algorithm provision doesn't help at high complexity.
+     arXiv:2506.06941
+
+TIER 4 — Background. No need to read in depth.
+ 13. Hla, "Machina Mirabilis" blog 2026 — GPT-1900 experiment. Blog post.
+     https://michaelhla.com/blog/machina-mirabilis.html
+ 14. Lu, C. et al. / AI Scientist, Nature 651 2026 — ML research automation;
+     one peer-reviewed paper produced. Peripheral to physics thesis.
+     doi:10.1038/s41586-026-10265-5
+ 15. Adesso, AI Magazine 2023 — Calibration only: "not at the level of making
+     original contributions" baseline. Cite by name; no need to re-read.
+     [text](../sources/to_review/adesso_2023.pdf)
+ 16. Wu & Tegmark 2018, "AI Physicist" — Pre-LLM interpretable physics-learning
+     tradition. Context for steelman §5.4.
+     [text](../sources/to_review/wu_and_tegmark_2018.pdf)
+
 [2026-05-29] CROSS-SECTION CONSISTENCY REVIEW — findings for speaker.
 
 Timing (at ~130 wpm):
@@ -89,15 +147,21 @@ full treatment 10 minutes earlier in §5.
 §5.6 first-person section is a skeleton. Speaker must fill from personal QFT/LLM
 experience. This section's length will most affect total time — plan accordingly.
 
-[2026-05-29] ACTION REQUIRED BEFORE TALK — Lu et al. citation verification.
-The Nature editorial (Vol 653, May 21 2026) footnote 4 cites "Lu, C. et al. Nature 651,
-914–919 (2026)" in context consistent with the Lu et al. physics/LLM paper. This is
-likely the published version of arXiv:2506.06214, which would upgrade it from preprint
-to Nature paper — a significant credibility boost worth stating explicitly in the talk.
-However: the first-author initial "C." does not match "Sirui Lu" as listed in our notes.
-Before the talk, go to nature.com or doi.org and look up Nature 651, pp. 914–919 (2026)
-to confirm authorship and title. If confirmed: update all references to Lu et al. in
-PLAN.md and the section drafts from "arXiv preprint" / "position paper" to
-"published in Nature 651 (2026)." If it's a different paper, the arXiv citation stands.
+[2026-05-29] Lu et al. citation — RESOLVED. The Nature editorial footnote
+"Lu, C. et al. Nature 651, 914–919 (2026)" was looked up (doi:10.1038/s41586-026-10265-5)
+and is a DIFFERENT paper: "Towards end-to-end automation of AI research" (The AI
+Scientist), by Chris Lu, Cong Lu, Robert Tjarko Lange et al. — about automating ML
+research, not physics. Our Lu et al. (arXiv:2506.06214, "Can Theoretical Physics
+Research Benefit from Language Agents?") remains a preprint. Cite it as such.
+
+[2026-05-29] NEW SOURCE — "The AI Scientist" (Lu, C. et al., Nature 651, 914–919, 2026)
+doi:10.1038/s41586-026-10265-5. Chris Lu, Cong Lu, Lange, Yamada, Hu, Foerster, Ha, Clune.
+End-to-end automation of the complete ML research lifecycle: idea generation, coding,
+experiments, data analysis, manuscript writing, peer review. One AI-generated paper
+passed peer review at an ICLR workshop (70% acceptance rate). Domain: ML, not physics.
+POTENTIALLY WORTH A BRIEF MENTION in §5 or §3 as a data point on where the automation
+curve is heading in ML — one step ahead of physics on the adoption curve. Caveat: ICLR
+workshop ≠ Physics Letters B peer review; ML is more automation-friendly than theoretical
+physics. Not integrated into drafts yet — speaker's call whether to include.
 
 [2025-05-26] Xposts of note. These of course are not on par with published sources, or even preprints, but are useful for tracking the cultural zeigest. See XPOSTS.md for a list

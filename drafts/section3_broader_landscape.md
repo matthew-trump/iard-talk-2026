@@ -20,7 +20,7 @@ To answer that, I want to introduce a framework — and then show you what fits 
 ### The framework: where in the research cycle does AI help?
 
 A group of physicists and ML researchers at the Max Planck Institute for Quantum
-Optics and ETH Zürich — Lu et al., published this year — broke the theoretical
+Optics and ETH Zürich — Lu et al., a 2026 preprint — broke the theoretical
 physics research workflow into stages. The taxonomy is useful and
 I'll use it throughout:
 

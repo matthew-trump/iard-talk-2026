@@ -452,18 +452,17 @@ Lu et al. "Can Theoretical Physics Research Benefit from Language Agents?"
 arXiv:2506.06214v2. Max-Planck-Institut für Quantenoptik / MCQST / ETH Zürich /
 MPI for Intelligent Systems. Originally submitted June 2025; revised March 2026.
 
-**Citation note**: The *Nature* editorial (Vol 653, May 21, 2026) cites "Lu, C. et al.
-*Nature* 651, 914–919 (2026)" in the context of multi-agent AI coordination — this is
-likely the published version of this paper. The first-author initial "C." does not
-match "Sirui" as listed on the arXiv preprint; verify before citing in the talk as
-published rather than preprint.
+**Citation**: arXiv:2506.06214v2. Preprint — not yet published in a journal.
+The *Nature* editorial's "Lu, C. et al. *Nature* 651, 914–919 (2026)" was verified
+(doi: 10.1038/s41586-026-10265-5) and is a *different paper entirely*: "Towards
+end-to-end automation of AI research" (The AI Scientist, by Chris Lu, Cong Lu et al.,
+March 2026). Cite our Lu et al. paper as a preprint only.
 
-**What this paper is**: Not just a position paper — the *Nature* citation suggests it
-appeared as a full paper in *Nature* 651 (early 2026), which significantly strengthens
-its standing. A structured argument about what LLMs currently can and cannot do in
-theoretical physics, written by a collaboration including serious physicists (Cirac
-group at MPQ, central to quantum many-body and quantum information) and serious ML
-researchers (Schölkopf, a leading figure in machine learning).
+**What this paper is**: A preprint position paper — a structured argument about what
+LLMs currently can and cannot do in theoretical physics, written by a collaboration
+including serious physicists (Cirac group at MPQ, central to quantum many-body and
+quantum information) and serious ML researchers (Schölkopf, a leading figure in
+machine learning). Published only on arXiv; cite accordingly.
 
 **Central position**:
 > *"LLM agents, when appropriately adapted and integrated with domain-specialized
@@ -1780,12 +1779,20 @@ This is a *Nature* news feature, not a research paper — a journalist's survey 
 field as of May 2026. Its value for the talk is precisely that it reflects the current
 state of *mathematician sentiment*, which is where physicist sentiment is heading.
 
-**The adoption-curve argument**: Software engineering → Mathematics → Theoretical
-Physics. The NOTES.md entry from May 25, 2026 states this directly: "Mathematics is
-behind software but ahead of physics — close enough to physics in rigor and formalism
-that it functions as a leading indicator." The Castelvecchi piece is real-time evidence
-that this is correct. Physicists in the audience can look at what is happening in
-mathematics in 2026 and see their own near-term future.
+**The adoption-curve argument**: Software engineering → ML research → Mathematics →
+Theoretical Physics. The NOTES.md entry from May 25, 2026 states this directly:
+"Mathematics is behind software but ahead of physics — close enough to physics in
+rigor and formalism that it functions as a leading indicator." The Castelvecchi piece
+is real-time evidence that this is correct. Physicists in the audience can look at
+what is happening in mathematics in 2026 and see their own near-term future.
+
+**The AI Scientist (Lu, C. et al., *Nature* 651, 914–919, 2026)** — doi:10.1038/s41586-026-10265-5.
+Chris Lu, Cong Lu, Lange, Yamada, Hu, Foerster, Ha, Clune. End-to-end automation of
+ML research lifecycle: idea generation, code, experiments, data analysis, manuscript,
+peer review. One AI-generated paper passed review at an ICLR workshop (70% acceptance).
+**Placed in §5 adoption curve as the ML research step** between software and mathematics.
+Caveat: ML is more automation-friendly than physics (code provides direct verification);
+ICLR workshop ≠ Physics Letters B. But venue is *Nature* and milestone is concrete.
 
 **The headline case**: Liam Price — no formal mathematics training, hasn't attended
 university, working from his home in southwest England — solved Erdős problem #1196
