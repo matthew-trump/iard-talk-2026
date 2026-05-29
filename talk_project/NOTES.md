@@ -66,4 +66,38 @@ https://arxiv.org/abs/2502.00873. Submitted 2 Feb 2025. Kantamneni; Tegmark, M.
 
 [2026-05-26] POSSIBLY INTERESTING Cook, M. "It Takes Two Neurons To Ride a Bicycle" https://fermatslibrary.com/s/it-takes-two-neurons-to-ride-a-bicycle#email-newsletter
 
+[2026-05-29] CROSS-SECTION CONSISTENCY REVIEW — findings for speaker.
+
+Timing (at ~130 wpm):
+  §1  ~7 min     §2  ~14–15 min     §3  ~9–10 min
+  §4  ~11 min    §5  ~11–12 min     §6  ~5 min
+  Total: ~57–59 min (top of the 45–60 range)
+
+Trim points if talk runs long: §4 (gpt1900 or Apple section could be compressed),
+§5 (first-person section length is variable), or shorten §5 efficiency/steelman.
+
+Intentional repetitions — frame as callbacks not repeats:
+  - Reeh-Schlieder Hsu quote in §4 Type 3 taxonomy echoes §2. Say:
+    "As Hsu put it when we looked at his paper..."
+  - "Physicist's role shifting" in §5 (forward-looking) and §6 (grounded in case
+    evidence). Different registers — keep both, don't compress either.
+
+Do not re-expand §6 Castelvecchi/Erdős in delivery. §6 intentionally compresses
+to a callback ("You've already heard the Erdős case...") — the audience heard the
+full treatment 10 minutes earlier in §5.
+
+§5.6 first-person section is a skeleton. Speaker must fill from personal QFT/LLM
+experience. This section's length will most affect total time — plan accordingly.
+
+[2026-05-29] ACTION REQUIRED BEFORE TALK — Lu et al. citation verification.
+The Nature editorial (Vol 653, May 21 2026) footnote 4 cites "Lu, C. et al. Nature 651,
+914–919 (2026)" in context consistent with the Lu et al. physics/LLM paper. This is
+likely the published version of arXiv:2506.06214, which would upgrade it from preprint
+to Nature paper — a significant credibility boost worth stating explicitly in the talk.
+However: the first-author initial "C." does not match "Sirui Lu" as listed in our notes.
+Before the talk, go to nature.com or doi.org and look up Nature 651, pp. 914–919 (2026)
+to confirm authorship and title. If confirmed: update all references to Lu et al. in
+PLAN.md and the section drafts from "arXiv preprint" / "position paper" to
+"published in Nature 651 (2026)." If it's a different paper, the arXiv citation stands.
+
 [2025-05-26] Xposts of note. These of course are not on par with published sources, or even preprints, but are useful for tracking the cultural zeigest. See XPOSTS.md for a list

@@ -8,16 +8,32 @@ working material. Update after each session.*
 
 ## Status
 
-| Section | Title | Status |
-|---------|-------|--------|
-| §1 | Introduction: Two Timelines | POPULATED |
-| §2 | A Case Study: The Hsu Paper | POPULATED |
-| §3 | Broader Landscape: LLMs in Physics and Math | POPULATED |
-| §4 | What LLMs Can and Cannot Do | POPULATED |
-| §5 | Synthesis: Thesis and Trajectory | POPULATED |
-| §6 | Conclusion | POPULATED |
+| Section | Title | Status | Draft | Est. time |
+|---------|-------|--------|-------|-----------|
+| §1 | Introduction: Two Timelines | POPULATED | drafts/section1_two_timelines.md | ~7 min |
+| §2 | A Case Study: The Hsu Paper | POPULATED | drafts/section2_hsu_case_study.md | ~14–15 min |
+| §3 | Broader Landscape: LLMs in Physics and Math | POPULATED | drafts/section3_broader_landscape.md | ~9–10 min |
+| §4 | What LLMs Can and Cannot Do | POPULATED | drafts/section4_can_and_cannot.md | ~11 min |
+| §5 | Synthesis: Thesis and Trajectory | POPULATED | drafts/section5_synthesis.md | ~11–12 min |
+| §6 | Conclusion | POPULATED | drafts/section6_conclusion.md | ~5 min |
 
-Estimated total: 45–60 minutes. §2 is the load-bearing section — 12–15 minutes.
+**Estimated total: ~57–59 minutes.** At the top of the 45–60 min range.
+§2 is the load-bearing section. §4 and §5 are both at the long end of their targets
+and are the natural trim points if the talk needs to shorten.
+
+**Cross-section consistency review (2026-05-29):**
+- §4 is tightest against its time budget. "Efficiency is not insight" was moved to §5
+  where it fits the synthesis arc better.
+- §5 and §6 both treat Castelvecchi/Erdős. §6 version compressed to a callback;
+  §5 is the full analytical treatment. Speaker: do not re-expand §6 in delivery.
+- The Reeh-Schlieder Hsu quote (*"model expertise extends across the entire
+  literature..."*) appears in both §2 and §4. Intentional — §4 is the taxonomy
+  section and it earns a second appearance as the Type 3 definition. Speaker:
+  frame it as a callback, not a repeat ("as Hsu put it in §2...").
+- "Physicist's role shifting" appears in §5 (forward-looking) and §6 (grounded in
+  Hsu/Pan et al. time use). Different registers — keep both.
+- §5.6 (first-person section) is a skeleton requiring speaker content. If this
+  section runs short or long it will affect total time most.
 
 ---
 
@@ -430,19 +446,24 @@ research. [→ THESIS §C]
 **Purpose**: Show the Hsu paper is not an isolated anomaly. Document the range of
 current activity. Organize around structural patterns rather than a list of papers.
 
-### 3.1 The Lu et al. Position Paper: A Framework
+### 3.1 The Lu et al. Paper: A Framework
 
-Lu, Sirui et al. "Can Theoretical Physics Research Benefit from Language Agents?"
+Lu et al. "Can Theoretical Physics Research Benefit from Language Agents?"
 arXiv:2506.06214v2. Max-Planck-Institut für Quantenoptik / MCQST / ETH Zürich /
-MPI for Intelligent Systems. March 2026 (originally submitted June 2025).
+MPI for Intelligent Systems. Originally submitted June 2025; revised March 2026.
 
-**What this paper is**: A position paper — not an empirical study with benchmark
-results, but a structured argument about what LLMs currently can and cannot do in
-theoretical physics, and what would be needed to make them genuinely useful. Written
-by a collaboration that includes both serious physicists (Cirac group at MPQ, central
-to quantum many-body and quantum information) and serious AI researchers (Schölkopf,
-one of the leading figures in machine learning). This gives the paper unusual
-credibility on both sides.
+**Citation note**: The *Nature* editorial (Vol 653, May 21, 2026) cites "Lu, C. et al.
+*Nature* 651, 914–919 (2026)" in the context of multi-agent AI coordination — this is
+likely the published version of this paper. The first-author initial "C." does not
+match "Sirui" as listed on the arXiv preprint; verify before citing in the talk as
+published rather than preprint.
+
+**What this paper is**: Not just a position paper — the *Nature* citation suggests it
+appeared as a full paper in *Nature* 651 (early 2026), which significantly strengthens
+its standing. A structured argument about what LLMs currently can and cannot do in
+theoretical physics, written by a collaboration including serious physicists (Cirac
+group at MPQ, central to quantum many-body and quantum information) and serious ML
+researchers (Schölkopf, a leading figure in machine learning).
 
 **Central position**:
 > *"LLM agents, when appropriately adapted and integrated with domain-specialized
@@ -1561,6 +1582,39 @@ generations that converge are more reliable than a single generation. The added 
 of expert oversight is precisely catching the cases where wrong answers also cluster —
 Type 3 confabulations that sound correct to anyone without deep subfield expertise.
 
+### 4.5a GPT-1900: A Direct Test of Reasoning vs. Pattern Matching
+
+Hla, M. "Machina Mirabilis." Blog post, 2026. https://michaelhla.com/blog/machina-mirabilis.html
+GitHub: https://github.com/michaelhla/gpt1900
+
+**The experiment**: A 3.3B parameter LLM trained exclusively on pre-1900 text (~22B
+tokens, British Library + institutional books + American newspapers; additional 290M
+tokens of Maxwell/Newton/Faraday midtraining). No Einstein, no Planck, no QM,
+no relativity — filtered aggressively to exclude even post-1900 forewords. Then
+asked: can it reason toward 20th-century physics it has never seen?
+
+**Results**:
+- Photoelectric effect: identified light as "disconnected parts of varying frequencies"
+  — approaching the photon hypothesis from pre-quantum principles
+- UV catastrophe: occasionally recognized equipartition fails at high frequencies,
+  requiring discrete energy mechanisms
+- General relativity: elevator thought experiment → gravity affects the light medium
+  (ether-based, but the light-gravity connection was present)
+
+**Author's conclusion**: Skeptical. *"The most likely explanation for the apparent
+breakthroughs is that the model is parroting words that seem plausible, but does not
+have any sort of strong internal representation of the world to reason from."* Notes:
+evaluation conditions were easier than actual discovery; reward hacking plausible.
+
+**For the talk**: This is the most direct experimental probe of the "tool vs. reasoner"
+question — it removes the training data from the equation. The results are tantalizing
+without being conclusive, and Hla's own honest skepticism makes this more useful than
+a triumphalist account would be. Best placed in §4 as a vivid illustration of why the
+tool/reasoner question resists resolution. The QM-connection (UV catastrophe, photoelectric
+effect) resonates with the §1 historical timeline and will land with a physics audience.
+Closing line of the blog: *"You have a machine of miracles in the palm of your hands.
+Use it well."*
+
 ### 4.6 The Tool vs. Reasoner Question
 
 The framing that LLMs are "tools, not reasoners" is increasingly unstable. It was
@@ -1598,6 +1652,42 @@ the difference between execution and judgment. LLMs are increasingly capable of
 execution; judgment remains the bottleneck. This is a more precise claim and
 more resistant to being overtaken by capability improvements, because "judgment"
 is exactly what advances in model training are targeting.
+
+### 4.6a The Complexity Ceiling: Shojaee et al. (2025)
+
+Shojaee, P. et al. "The Illusion of Thinking: Understanding the Strengths and
+Limitations of Reasoning Models via the Lens of Problem Complexity." Apple /
+arXiv:2506.06941 (2025). Accepted NeurIPS 2025.
+
+**What it tests**: Large Reasoning Models (o1/o3 class) on controllable puzzle
+environments: Tower of Hanoi, Checker Jumping, River Crossing, Blocks World.
+Not physics — but findings are structurally precise.
+
+**Three regimes**:
+- Low complexity: standard LLMs > reasoning models (chain-of-thought is overhead)
+- Medium complexity: reasoning models win
+- High complexity: complete accuracy collapse in both
+
+**The paradoxical scaling**: At the collapse point, reasoning effort *declines*
+despite remaining token budget — models stop trying before running out of compute.
+Tower of Hanoi collapse around N=7-8 (~100–200 moves).
+
+**The key finding**: Providing an explicit algorithm does not rescue performance at
+high complexity. Failure is in symbolic execution capability, not in knowing the
+right approach. This directly extends the Pan et al. HF template result: templating
+works, but there is a complexity ceiling set by the model's symbolic manipulation
+capability, not by the quality of the template.
+
+**Also**: Overthinking on simple problems — models find the correct solution early
+in the reasoning trace and then continue exploring incorrect alternatives, talking
+themselves out of the right answer.
+
+**For the talk**: Cite carefully — puzzle-based, not physics. But the structural
+finding maps onto: (a) what Hsu encountered in long derivation chains; (b) what Lu
+et al. describe as failure at the non-standard pivot; (c) the limit of the Pan et al.
+template approach. Belongs in §4 as a precision instrument for characterizing where
+the execution capability ceiling actually is, and why expert scaffolding keeps problems
+below it.
 
 ### 4.7 The Moving-Target Problem
 

@@ -49,24 +49,18 @@ That is not a smaller role. But it is a different one.
 
 ### What mathematics is showing us
 
-[One slide: the Castelvecchi headline, or the Erdős problem number alone.]
+[Slide from §5 if still up, or a single line: "Software → Mathematics → Physics"]
 
-In May of this year, *Nature* ran a feature on AI transforming mathematics. A person
-with no university education, working from his home in southwest England, solved a
-problem posed by Paul Erdős in 1966 — using ChatGPT. The solution found a path
-through the problem that trained mathematicians had walked around, because their
-training told them to reframe it in probability theory. The AI didn't know that
-convention. It solved the problem in its original language.
+You've already heard the Erdős case in detail. Let me just say what it means from here.
 
-Proof lengths are scaling. Human referees are stretched thin. A senior researcher at
-Google DeepMind is predicting a Fields Medal by 2030. Terence Tao has coined a phrase:
-proof indigestion. Not "AI is writing proofs." "We may soon have more verified results
-than we can absorb and understand."
+Proof lengths are scaling toward the length of a publishable physics paper. Human
+referees are stretched thin. A Fields Medal is predicted by 2030. And Tao's phrase —
+proof indigestion — describes not a future risk but a present operational problem:
+more verified results than the community can absorb and understand.
 
-This is happening in mathematics now. Mathematics is not theoretical physics. But it
-is close enough in formalism and rigor that it functions as a leading indicator. The
-distance on the adoption curve between mathematics and theoretical physics is shorter
-than the distance already covered.
+Mathematics is not theoretical physics. But it is close enough in formalism and rigor
+to function as a leading indicator — and the distance between mathematics and physics
+on this adoption curve is shorter than the distance the curve has already covered.
 
 The physicist who dismisses this because physics has experimental constraints and
 requires physical intuition is making the same argument that was made about chess,
@@ -92,10 +86,23 @@ template prompts.
 
 Max Perutz, who founded the MRC Laboratory of Molecular Biology and won the Nobel
 Prize for the structure of hemoglobin, asked in 1989: "Does humanity need science?"
-His answer was yes.
+His answer was yes. But Perutz also opened that essay with a false dialectic —
+one the *Nature* editorial quotes directly:
 
-*Nature*'s editorial board, in the same issue that published the Robin and Co-Scientist
-papers this month, inverted the question. Does science need humanity?
+*"Is scientific research the noblest pursuit of the human mind, from which springs
+a never-ceasing stream of beneficial discoveries, or is it a sorcerer's broom
+that threatens us all with destruction?"*
+
+The editorial's response: *"These opposing extremes, both true in their own way,
+should not be allowed to distort AI's true potential — or obscure its limitations."*
+
+This is exactly the binary this talk has been trying to hold open. "Taking over"
+is the sorcerer's broom version. "Just autocomplete" is the noble-pursuit version
+that dismisses what the evidence actually shows. Both are wrong. The evidence
+is more interesting than either.
+
+*Nature*'s editorial board, in the same issue, inverted Perutz's original question
+for 2026: Does science need humanity?
 
 Their answer is also yes. So is mine. But the grounds keep shifting — and the case
 that needs to be made keeps having to be remade on new terrain.
