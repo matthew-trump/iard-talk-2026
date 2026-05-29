@@ -8,9 +8,33 @@ and then subjected to counterargument.*
 
 ---
 
-## Current Status: OPEN
+## Current Status: THESIS SETTLED (working version — subject to revision after §1 and §6 drafts)
 
-No thesis has been settled. The following are candidate arguments and tensions to resolve.
+**Working thesis sentence**:
+> *LLMs have crossed from tools into contributors at the calculation and conjecture levels
+> of theoretical physics — still requiring expert oversight, but already appearing in
+> published results — and mathematics is showing us, in real time, what happens when
+> that oversight requirement starts to erode.*
+
+**Rhetorical structure**: Empirical claim (present) → honest qualification → prediction
+grounded in evidence (not speculation). This survives being said aloud and cross-examined.
+
+**Closing line** (§6, not the thesis itself):
+> *The expert bottleneck is the last line of defense between current LLMs and
+> autonomous physics research — and mathematics is showing us, in real time,
+> what happens when it starts to give way.*
+
+**What settled it**: The three-paper structure (Hsu / Pan et al. / Lu et al.) plus the
+Castelvecchi mathematics evidence made it possible to claim *demonstrated present
+contribution* rather than *future potential*, while the expert bottleneck framing gives
+the qualification teeth. Candidate A (tool/reasoner) was retired because the execution/
+judgment reframe (§4) is more durable; Candidate B (inevitability) became the frame
+rather than the thesis; Candidate C (epistemological) feeds into §2.9 and §5.6 but is
+too broad to anchor a 45-minute talk.
+
+---
+
+The following candidate arguments were developed and are retained below for reference.
 
 ---
 
@@ -143,7 +167,7 @@ Candidates A and C, anchored by the inevitability frame of Candidate B:
 > is imperfect but instructive: the transition happened faster than predicted, with
 > less disruption than feared, and more transformation than imagined.
 
-**This needs to be sharpened into a single sentence before the talk is drafted.**
+**See SETTLED THESIS at top of this file — the one-sentence version is there.**
 
 ---
 
