@@ -47,7 +47,8 @@ Hsu had worked on related problems. In a 2014 paper with Ho, he showed that
 instantaneous entanglement generation appears under certain nonlinear evolutions in
 the non-relativistic case. But the full relativistic treatment — the question of
 whether nonlinear QM can survive contact with special relativity at the QFT level —
-had not been settled with the right tools.
+remains a live question, and Hsu's paper attacks it with a particularly natural
+tool.
 
 The right tools, it turns out, are the Tomonaga-Schwinger formalism. You may know it
 from axiomatic QFT. The idea is to define quantum evolution not with respect to a
@@ -57,18 +58,25 @@ covariant theory, the physics cannot depend on which foliation you choose. That
 independence condition — that you get the same answer regardless of how you slice
 spacetime — is the TS integrability condition.
 
-What Hsu shows is that state-dependent nonlinear modifications to QFT generically
-fail this condition. The key mechanism: state-dependent evolution doesn't preserve
-microcausality — the commutativity of spacelike-separated operators — once you
-propagate forward from an initial slice. Three specific models are analyzed: Weinberg's
-local form, a nonlocal generalization, and a more recent retarded model by Kaplan and
-Rajendran. All three fail. The conclusion is a no-go theorem: under TS integrability
-with microcausality, admissible deterministic state-dependent modifications collapse
-to the linear case.
+Hsu's argument is that state-dependent nonlinear modifications to QFT generically
+fail this condition. The proposed mechanism: state-dependent evolution doesn't
+preserve microcausality — the commutativity of spacelike-separated operators — once
+you propagate forward from an initial slice. Three specific models are analyzed:
+Weinberg's local form, a nonlocal generalization, and a more recent retarded model
+by Kaplan and Rajendran. Hsu argues that all three fail. The conclusion of the paper
+is a no-go claim: under TS integrability with microcausality, admissible deterministic
+state-dependent modifications collapse to the linear case.
 
-That's the result. It's a genuine contribution to the foundations of QFT. The referee
-evidently thought so — asked for a non-trivial extension not in the original
-submission, which Hsu provided.
+That is the physics claim. It is technical, and it is now disputed. In February 2026,
+Lajos Diósi posted an arXiv comment arguing that Hsu's central covariance claim is
+wrong — that the Tomonaga-Schwinger equation remains covariant despite the nonlinear
+modification. I am not going to adjudicate that dispute here. For this talk, the
+load-bearing point is different: a serious, peer-reviewed PLB paper entered the
+literature whose research direction Hsu says originated in GPT-5, and whose development
+then required human and model verification.
+
+The referee treated it as serious technical physics, asking for a non-trivial
+extension not in the original submission, which Hsu provided.
 
 ---
 
@@ -113,7 +121,7 @@ paper."
 
 I want to be careful about what I'm claiming here, and I'll be more precise about
 that shortly. But take a moment to appreciate what just happened: a published,
-peer-reviewed result in a legitimate physics journal, in an area of active theoretical
+peer-reviewed paper in a legitimate physics journal, in an area of active theoretical
 interest, where the originating idea — the conceptual move that made the paper
 possible — was proposed not by the human physicist, but by a language model.
 
@@ -208,9 +216,9 @@ Kaplan-Rajendran retarded nonlinearity model. This is a more recent proposal, no
 in the original submission, and the retarded structure makes the causal analysis
 more delicate.
 
-GPT-5 generated the correct calculation. The key issue is causality: the retarded
+GPT-5 generated the calculation Hsu used. The key issue is causality: the retarded
 kernel and commutator terms have support on overlapping past light cones — J-minus
-of x and J-minus of y — and the argument is that even retarded causal dependence
+of x and J-minus of y — and Hsu's argument is that even retarded causal dependence
 fails TS integrability because spacelike-separated points share a nonempty causal
 past. Other models initially got the causal structure wrong but converged to GPT-5's
 result when used as Verifiers.
@@ -226,9 +234,9 @@ question. The AI helped answer it.
 Let me now be precise about what this paper does and does not establish, because
 the tendency in both directions — to oversell and to dismiss — is real.
 
-**What the Hsu paper establishes**:
+**What the Hsu paper establishes for this talk**:
 
-A published, peer-reviewed result in a reputable physics journal. The main research
+A published, peer-reviewed paper in a reputable physics journal. The main research
 direction — use the TS formalism to constrain nonlinear QM — was proposed de novo by
 GPT-5, unprompted, in the course of a conversation. The key equations were generated
 in that exchange and form the core of the paper. The Generate-Verify workflow is
@@ -240,7 +248,8 @@ caused significant wasted effort. Expert human oversight was essential throughou
 That GPT-5 understands physics in the way a physicist does. That this is replicable
 without deep expert oversight. That a non-expert could have done what Hsu did. That
 it demonstrates autonomous physics research. That this is a typical result rather
-than an exceptional one.
+than an exceptional one. And, given the Diósi comment, that Hsu's no-go claim should
+be treated as settled physics.
 
 Hsu's own summary is the right one to end on:
 

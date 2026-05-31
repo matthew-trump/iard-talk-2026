@@ -105,7 +105,7 @@ a trustworthy co-author."*
 We are in 2026. Tao named this year. The evidence I'm about to show you is the test
 of whether he was right, and on what terms.
 
-2025: Stephen Hsu, theoretical physicist at Michigan State, publishes a result in
+2025: Stephen Hsu, theoretical physicist at Michigan State, publishes a paper in
 *Physics Letters B*. Quantum field theory. Nonlinear quantum mechanics. Tomonaga-Schwinger
 formalism. The main research direction — the conceptual move that made the paper
 possible — was proposed unprompted by GPT-5 during a Q&A session. Published after
@@ -116,11 +116,11 @@ language models contributing to solved problems in number theory. A Fields Medal
 predicted by 2030. Proof-length capabilities scaling. This is happening in mathematics
 now. I'll argue it's where theoretical physics is heading.
 
-The compression: from "Attention Is All You Need" in 2017 to a published QFT result
+The compression: from "Attention Is All You Need" in 2017 to a published QFT paper
 with an LLM-generated conjecture in 2025 is eight years — shorter than the thirteen
-years from Bohr to Schrödinger. From ChatGPT in November 2022 to that same result
+years from Bohr to Schrödinger. From ChatGPT in November 2022 to that same paper
 is three years. Three years from "not at the level of making original contributions"
-to a peer-reviewed contribution in *Physics Letters B*.
+to a peer-reviewed, technically serious contribution in *Physics Letters B*.
 
 The explosive phase — the eleven-month equivalent — may be the interval we are
 currently inside.

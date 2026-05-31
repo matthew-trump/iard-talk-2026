@@ -252,22 +252,29 @@ framework in which evolution is defined on arbitrary spacelike hypersurfaces rat
 on a single time coordinate — to derive precise integrability conditions for
 foliation independence under state-dependent evolution.
 
-**The result**: State-dependent nonlinear modifications to QFT generically fail the TS
+**The claimed result**: State-dependent nonlinear modifications to QFT generically fail the TS
 integrability conditions. The key mechanism: state-dependent evolution does not preserve
 operator commutation relations (microcausality) over time, even if microcausality is imposed
-on an initial Cauchy slice. Three specific nonlinear models are analyzed and all fail:
+on an initial Cauchy slice. Three specific nonlinear models are analyzed and Hsu argues
+that all fail:
   - Weinberg local expectation-value form (Weinberg 1989)
   - Weinberg nonlocal mean-field generalization
   - Kaplan-Rajendran retarded (past-light-cone) model (2022)
 
-The conclusion: under TS integrability with microcausality, admissible deterministic
-state-dependent modifications collapse to the linear case.
+The conclusion claimed by Hsu: under TS integrability with microcausality,
+admissible deterministic state-dependent modifications collapse to the linear case.
 
-**Context for the audience**: The result is a no-go theorem at the frontier of quantum
+**Context for the audience**: The paper is a no-go claim at the frontier of quantum
 foundations. It is not a solved problem dressed up as new — the TS framework had not
 previously been applied to this question with the Fréchet derivative terms that
 state-dependence requires. The referee asked for the KR model extension, which was
 not in the original submission, confirming the paper entered genuine peer review.
+
+**Important caveat**: In February 2026, Lajos Diósi posted an arXiv comment disputing
+Hsu's central covariance claim. The talk should not present the no-go theorem as
+settled physics unless it adjudicates that dispute. The load-bearing point is the
+documented workflow: a peer-reviewed PLB paper whose research direction Hsu says
+originated in GPT-5, followed by human and model verification.
 
 **Prior work connection**: Hsu had co-authored a 2014 paper (Ho and Hsu, "Locality and
 Nonlinear Quantum Mechanics," *Int. J. Mod. Phys. A* 29, 1450088) that showed
@@ -393,10 +400,10 @@ The paper underwent standard peer review at *Physics Letters B*. The referee req
 analysis of the Kaplan-Rajendran (KR) retarded nonlinearity model using the new TS
 conditions — a non-trivial extension not in the original submission.
 
-GPT-5 generated the correct calculation. The calculation required careful treatment of
+GPT-5 generated the calculation Hsu used. The calculation required careful treatment of
 causal structure: the retarded kernel and commutator terms have support on overlapping
 past light cones J⁻(x) ∩ J⁻(y), and the key insight is that even retarded (causal)
-dependence fails the TS integrability conditions because spacelike-separated points
+dependence fails the TS integrability conditions in Hsu's argument because spacelike-separated points
 share a nonempty causal past. Other models initially failed to handle the causal
 structure correctly but converged to GPT-5's result when used as Verifiers.
 
@@ -423,6 +430,7 @@ expert criticism.
 - That it represents what non-expert researchers could do
 - That the result could have emerged from single-shot LLM use
 - That this proves LLMs can do physics autonomously
+- That Hsu's no-go claim should be treated as settled physics
 
 **The honest framing** (Hsu's own words):
 > *"Research with an LLM might be compared to collaboration with a brilliant but
@@ -1412,8 +1420,10 @@ on this capability, within a well-structured template, is close to human expert.
 and unprompted, the use of the Tomonaga-Schwinger formalism to investigate
 foliation independence under state-dependent QM evolution — a research direction
 not present in any prior paper. The resulting equations became the core of a
-published, peer-reviewed result in *Physics Letters B*. This is not summarizing
-known results; it is proposing a novel conceptual move.
+published, peer-reviewed paper in *Physics Letters B*. This is not summarizing
+known results; it is proposing a novel conceptual move. The paper's physics claim is
+now disputed, so the evidentiary weight here should rest on the AI-originated research
+direction and workflow rather than on treating the no-go theorem as settled.
 
 **Cross-subfield literature navigation**: LLMs have processed the entire arXiv.
 They can draw connections across subfields at a speed no human can match. This is

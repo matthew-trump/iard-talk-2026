@@ -231,7 +231,10 @@ That sentence has three parts and each one does work.
 "Crossed from tools into contributors at the calculation and conjecture levels":
 Pan et al. at 87.5/100 on condensed matter HF derivations. Hsu in *Physics Letters B*.
 Those are contributions — not assistance, not autocomplete. They are at different
-levels of the research workflow, but they are in the literature.
+levels of the research workflow, but they are in the literature. In Hsu's case, the
+strong claim is about conjecture generation and research direction, not about treating
+the no-go theorem as settled; that physics claim is already under post-publication
+challenge.
 
 "Still requiring expert oversight, but already appearing in published results":
 both halves of this are true simultaneously. The oversight is not optional —
