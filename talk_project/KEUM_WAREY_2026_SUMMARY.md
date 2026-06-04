@@ -6,6 +6,7 @@ Seunghwan Keum and Alok Warey, "Bracketing Inference with Uncertainty
 Quantification: A Reliability Pipeline for Neural Aerodynamic Surrogates."
 Research Square preprint, posted May 28, 2026.
 
+https://www.researchsquare.com/article/rs-9775673/v1
 DOI: https://doi.org/10.21203/rs.3.rs-9775673/v1
 
 Local source: `sources/to_review/keum_and_warey_preprint.pdf`

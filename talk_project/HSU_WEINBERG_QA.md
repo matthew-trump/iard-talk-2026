@@ -197,3 +197,6 @@ Whether they can contribute to the former is genuinely unknown and genuinely imp
 shows and doesn't overstate the AI contribution. The claim in the talk is carefully
 scoped — one instance, one research direction, expert oversight throughout. If you
 hold that line under pressure, Weinberg-style questioning is answerable.
+
+[June 3, 2026]
+Keum and Warey, "Bracketing Inference with Uncertainty Quantification: A Reliability Pipeline for Neural Aerodynamic Surrogates" https://doi.org/10.21203/rs.3.rs-9775673/v1 on Data-driven surrogates for computational fluid dynamics (CFD) https://www.researchsquare.com/article/rs-9775673/v1
