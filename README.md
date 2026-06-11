@@ -11,3 +11,7 @@ metadata and post-talk notes.
 The project remains active after delivery as a possible paper, preprint, or IARD
 proceedings seed. See
 [talk_project/PROJECT_CONTINUATION_NOTES.md](talk_project/PROJECT_CONTINUATION_NOTES.md).
+
+The repository is also being expanded into a larger multi-artifact research
+project with shared references, artifact-specific outputs, and side quests. See
+[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md).

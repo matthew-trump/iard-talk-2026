@@ -111,3 +111,31 @@ Migrate to a new seed if:
 
 The decision should be made pragmatically when the next phase becomes clear.
 
+## Larger Multi-Artifact Structure
+
+After the talk, the project is also being organized as a larger research and
+writing environment defined by a shared reference pool rather than by a single
+talk.
+
+The first artifact remains the delivered IARD 2026 talk:
+
+```text
+artifacts/iard-2026-talk/
+```
+
+The first explicit side quest is nonlinear quantum mechanics:
+
+```text
+side_quests/nlqm/
+```
+
+This side quest is for the Weinberg 1989 rabbit hole and the broader subject of
+nonlinearities in quantum theory. It may later become a paper, future talk, or
+separate project.
+
+References remain shared for now in `sources/`, with citation details collected in
+`talk_project/MASTER_CITATIONS.md`. Artifact-specific slides and Q&A should live
+with the relevant artifact; side-quest conceptual notes and draft research lines
+should live with the side quest.
+
+The detailed structure is documented in `PROJECT_STRUCTURE.md`.
